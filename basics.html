@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Basics</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&display=swap" rel="stylesheet">
+<title>Tennis Basics</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+
+<style>
+/* HERO (smaller than homepage but consistent style) */
+.hero-small {
+    height: 50vh;
+    background: url("https://images.unsplash.com/photo-1521412644187-c49fa049e84d") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* IMAGE SIZE (nice and clean) */
+.page-img {
+    width: 280px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+</style>
+
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <nav>
 <div class="logo">🎾 Lila's Tennis</div>
 <div>
@@ -20,25 +50,65 @@
 </div>
 </nav>
 
+<!-- HERO -->
+<div class="hero-small">
+    <div class="hero-overlay">
+        <h1>Tennis Basics</h1>
+        <p>Everything you need to start your tennis journey</p>
+    </div>
+</div>
+
+<!-- CONTENT -->
 <div class="container">
 
-<h1>Tennis Basics</h1>
+<section>
+<h2>Getting Started</h2>
+<p>Tennis is a beginner-friendly sport that anyone can learn with practice. New players focus on learning how to hold the racket, hit the ball consistently, and understand basic rules of play.</p>
+
+<img class="page-img" src="https://images.unsplash.com/photo-1546519638-68e109498ffc" alt="Tennis beginner">
+</section>
 
 <section>
-<h2>Court & Rules</h2>
-<p>A tennis court is divided into two sides by a net. Players must hit the ball within the boundary lines. Matches can be played on different surfaces like grass, clay, or hard courts.</p>
+<h2>Court & Layout</h2>
+<p>A standard tennis court is divided by a net into two equal halves. There are baseline areas, service boxes, and sidelines that define where the ball must land. Courts can be made of different surfaces such as hard court, clay, or grass, which affect how the ball moves.</p>
+</section>
 
-<img src="https://images.unsplash.com/photo-1517649763962-0c623066013b">
+<section>
+<h2>Basic Rules</h2>
+<ul>
+<li>Players must hit the ball over the net into the opponent’s court</li>
+<li>The ball can bounce once before being returned</li>
+<li>If the ball lands outside the lines, it is out</li>
+<li>A point is won when the opponent cannot return the ball legally</li>
+</ul>
 </section>
 
 <section>
 <h2>Scoring System</h2>
-<p>Tennis scoring is unique: 0 (love), 15, 30, 40, and game. If both players reach 40, it becomes "deuce," and a player must win two consecutive points.</p>
+<p>Tennis has a unique scoring system:</p>
+<ul>
+<li>0 = Love</li>
+<li>15 = First point</li>
+<li>30 = Second point</li>
+<li>40 = Third point</li>
+</ul>
+
+<p>If both players reach 40, it becomes <strong>deuce</strong>. A player must win two points in a row to win the game from deuce.</p>
 </section>
 
 <section>
-<h2>Types of Matches</h2>
-<p>Singles involves one player on each side, while doubles includes teams of two. Doubles courts are wider and require teamwork and communication.</p>
+<h2>Singles vs Doubles</h2>
+<p>In singles, one player competes against another. In doubles, teams of two players compete together. Doubles courts are wider and require teamwork and communication.</p>
+</section>
+
+<section>
+<h2>Tips for Beginners</h2>
+<ul>
+<li>Focus on consistency before power</li>
+<li>Keep your eyes on the ball</li>
+<li>Practice your footwork</li>
+<li>Start with slow, controlled swings</li>
+</ul>
 </section>
 
 </div>
