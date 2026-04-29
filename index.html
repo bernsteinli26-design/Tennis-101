@@ -2,69 +2,12 @@
 <html>
 <head>
 <title>Lila's Tennis</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-
-<style>
-/* HERO SECTION */
-.hero {
-    height: 80vh;
-    background: url("https://images.unsplash.com/photo-1505253213348-cd54c92b37f7") center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-.hero-overlay {
-    background: rgba(0,0,0,0.5);
-    padding: 40px;
-    border-radius: 12px;
-}
-
-.hero h1 {
-    font-size: 60px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.hero button {
-    padding: 12px 25px;
-    font-size: 16px;
-    border: none;
-    background: #6a9f50;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-/* FEATURE GRID */
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.feature-card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-</style>
-
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <nav>
 <div class="logo">🎾 Lila's Tennis</div>
 <div>
@@ -77,69 +20,29 @@
 </div>
 </nav>
 
-<!-- HERO -->
-<div class="hero">
-    <div class="hero-overlay">
-        <h1>Train Like a Champion</h1>
-        <p>Master your game with guides, drills, and expert tennis knowledge</p>
-        <button onclick="location.href='basics.html'">Start Learning</button>
-    </div>
+<div class="hero-small" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/8224037/pexels-photo-8224037.jpeg');">
+<div class="hero-overlay">
+<h1>Train Like a Champion</h1>
+<p>Learn, practice, and improve your tennis skills</p>
+</div>
 </div>
 
-<!-- MAIN CONTENT -->
 <div class="container">
 
 <section>
-<h2>Welcome to Lila's Tennis Training</h2>
-<p>This website is designed to help players of all levels improve their tennis skills. Whether you're just starting or looking to refine your technique, you'll find valuable resources, tips, and guidance here.</p>
+<h2>Welcome</h2>
+<p>This site helps players of all levels learn tennis, improve technique, and train effectively.</p>
 </section>
 
 <section>
-<h2>About the Sport</h2>
-<p>Tennis is played worldwide and is one of the most popular individual sports. It requires speed, strength, and strategy. Matches are played in sets, and players compete to win games by scoring points through skillful shots and smart positioning.</p>
-</section>
-
-<section>
-<h2>Explore the Site</h2>
-
-<div class="features">
-
-<div class="feature-card">
-<h3>Basics</h3>
-<p>Learn the rules, scoring system, and how tennis matches work.</p>
+<div class="grid">
+<div class="card"><h3>Basics</h3><p>Learn rules and scoring</p></div>
+<div class="card"><h3>Techniques</h3><p>Improve your strokes</p></div>
+<div class="card"><h3>Drills</h3><p>Practice effectively</p></div>
+<div class="card"><h3>Gear</h3><p>Choose the right equipment</p></div>
 </div>
-
-<div class="feature-card">
-<h3>Techniques</h3>
-<p>Improve your forehand, backhand, serve, and volleys.</p>
-</div>
-
-<div class="feature-card">
-<h3>Drills</h3>
-<p>Practice with structured drills to build consistency and control.</p>
-</div>
-
-<div class="feature-card">
-<h3>Gear</h3>
-<p>Find the best equipment to match your skill level and playing style.</p>
-</div>
-
-</div>
-
-</section>
-
-<section>
-<h2>Why Tennis?</h2>
-<ul>
-<li>Boosts cardiovascular fitness</li>
-<li>Improves coordination and agility</li>
-<li>Builds mental toughness and focus</li>
-<li>Can be played competitively or recreationally</li>
-</ul>
 </section>
 
 </div>
-
 </body>
 </html>
-
