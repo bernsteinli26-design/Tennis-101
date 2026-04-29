@@ -1,40 +1,41 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: linear-gradient(to right, #f6ffe9, #e8ffd9);
+    background: #f4fff4;
     color: #2e4a2e;
 }
 
 /* NAVBAR */
 nav {
     background: white;
-    padding: 15px 30px;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
-    color: #6a9f50;
+    color: #5a8f3d;
 }
 
 nav a {
     margin-left: 20px;
     text-decoration: none;
     font-weight: 600;
-    color: #3d6133;
+    color: #2e4a2e;
 }
 
 nav a:hover {
-    color: #6a9f50;
+    color: #5a8f3d;
 }
 
 /* PAGE */
 .container {
     padding: 50px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 /* CARDS */
@@ -42,32 +43,23 @@ section {
     background: white;
     padding: 25px;
     margin-bottom: 25px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
-
-/* IMAGE */
-img {
-    width: 100%;
     border-radius: 12px;
-    margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* TITLES */
+/* IMAGES (FIXED SIZE) */
+img {
+    width: 300px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* TEXT */
 h1 {
-    font-size: 42px;
+    font-size: 40px;
 }
 
 h2 {
-    color: #6a9f50;
-}
-
-/* BUTTON */
-button {
-    padding: 10px 18px;
-    border: none;
-    background: #6a9f50;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
+    color: #5a8f3d;
 }
