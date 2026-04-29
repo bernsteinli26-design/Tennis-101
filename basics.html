@@ -3,38 +3,66 @@
 <head>
 <title>Tennis Basics</title>
 
+<!-- FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<!-- MAIN CSS -->
 <link rel="stylesheet" href="styles.css">
 
 <style>
+
+/* HERO SECTION */
 .hero-small {
-    height: 50vh;
-    background: url("https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg") center/cover no-repeat;
+    height: 55vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.pexels.com/photos/8224037/pexels-photo-8224037.jpeg");
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
+    color: white;
 }
 
-.hero-overlay {
-    background: rgba(0,0,0,0.5);
-    padding: 30px;
-    border-radius: 10px;
+.hero-small h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
+.hero-small p {
+    font-size: 18px;
+}
+
+/* IMAGE STYLE */
 .page-img {
     width: 260px;
     display: block;
-    margin: 15px auto;
-    border-radius: 10px;
+    margin: 20px auto;
+    border-radius: 12px;
 }
+
+/* GRID (for nicer layout) */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
 </style>
 
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <nav>
 <div class="logo">🎾 Lila's Tennis</div>
 <div>
@@ -47,49 +75,85 @@
 </div>
 </nav>
 
+<!-- HERO -->
 <div class="hero-small">
-    <div class="hero-overlay">
-        <h1>Tennis Basics</h1>
-        <p>Start your journey the right way</p>
-    </div>
+<div>
+<h1>Tennis Basics</h1>
+<p>Learn the fundamentals of the game</p>
+</div>
 </div>
 
+<!-- CONTENT -->
 <div class="container">
 
 <section>
 <h2>Getting Started</h2>
-<p>Tennis is one of the most popular sports in the world. Beginners focus on learning how to control the ball, move around the court, and understand the rules.</p>
+<p>Tennis is a fast-paced sport that combines athletic ability with strategy. Beginners start by learning how to control the ball, position themselves on the court, and understand how points are played.</p>
 
 <img class="page-img" src="https://images.pexels.com/photos/5739117/pexels-photo-5739117.jpeg" alt="Beginner playing tennis">
 </section>
 
 <section>
-<h2>Court Layout</h2>
-<p>The tennis court includes baselines, service boxes, and sidelines. Players must hit the ball within these lines to keep the rally going.</p>
+<h2>How the Game Works</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Court Layout</h3>
+<p>The court is divided into two sides by a net. Players aim to hit the ball into the opponent’s side within the boundary lines.</p>
+</div>
+
+<div class="card">
+<h3>Objective</h3>
+<p>The goal is to win points by hitting shots your opponent cannot return legally.</p>
+</div>
+
+<div class="card">
+<h3>Surfaces</h3>
+<p>Tennis is played on hard courts, clay courts, and grass, each affecting speed and bounce.</p>
+</div>
+
+</div>
 </section>
 
 <section>
-<h2>Basic Rules</h2>
+<h2>Scoring System</h2>
+<p>Tennis uses a unique scoring format:</p>
+
 <ul>
-<li>Hit the ball over the net</li>
-<li>Ball can bounce once</li>
-<li>Keep the ball inside the lines</li>
-<li>Win points when opponent misses</li>
+<li>0 = Love</li>
+<li>15 = First point</li>
+<li>30 = Second point</li>
+<li>40 = Third point</li>
 </ul>
+
+<p>If both players reach 40, it is called <strong>deuce</strong>. A player must win two points in a row to win the game.</p>
 </section>
 
 <section>
-<h2>Scoring</h2>
-<p>Scoring goes: Love, 15, 30, 40, Game. At 40-40, it becomes deuce and a player must win by 2 points.</p>
+<h2>Singles vs Doubles</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Singles</h3>
+<p>One player on each side. Requires strong endurance and movement.</p>
+</div>
+
+<div class="card">
+<h3>Doubles</h3>
+<p>Two players per team. Focuses more on teamwork, positioning, and communication.</p>
+</div>
+
+</div>
 </section>
 
 <section>
 <h2>Beginner Tips</h2>
 <ul>
-<li>Focus on control, not power</li>
-<li>Practice footwork daily</li>
-<li>Watch the ball carefully</li>
-<li>Stay relaxed while playing</li>
+<li>Start with slow, controlled swings</li>
+<li>Focus on consistency before power</li>
+<li>Keep your eyes on the ball</li>
+<li>Practice footwork regularly</li>
+<li>Stay relaxed and patient while learning</li>
 </ul>
 </section>
 
