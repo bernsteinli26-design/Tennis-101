@@ -1,0 +1,47 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f6ffe9;
+    color: #2e4a2e;
+}
+
+nav {
+    background: #d4f5b2;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #b8e69f;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #6a9f50;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #3d6133;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 40px;
+}
+
+section {
+    background: #fffdcc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #3d6133;
+}
